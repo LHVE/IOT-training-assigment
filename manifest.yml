@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IOT-training-assigment
+  host: IOT-training-assigment
+  disk_quota: 1024M
+  services:
+  - IOT-training-assigment-cloudantNoSQLDB
+  - IOT-training-assigment-iotf-service
